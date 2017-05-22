@@ -1,0 +1,1 @@
+SELECT DISTINCT city FROM station WHERE UPPER(city) NOT RLIKE '.*[AEIOU]$';
