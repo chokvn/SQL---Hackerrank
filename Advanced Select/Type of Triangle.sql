@@ -9,4 +9,4 @@ WHEN A = B AND B = C then "Equilateral"
 WHEN A = B OR B = C OR A = C then "Isosceles"
 ELSE 'Scalene'
 END AS triangles_type
-FROM triangles'
+FROM triangles;
