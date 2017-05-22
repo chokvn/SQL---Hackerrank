@@ -1,1 +1,6 @@
-SELECT * FROM CITY WHERE ID = 1661;
+/*
+Challenge reference:
+https://www.hackerrank.com/challenges/select-by-id
+*/
+
+SELECT * FROM city WHERE ID = 1661;
